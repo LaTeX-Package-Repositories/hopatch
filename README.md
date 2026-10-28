@@ -1,6 +1,6 @@
 # hopatch package for LaTeX
 
-Version: 2023-01-07 v1.5
+Version: 2026-10-27 v1.5a
 
 This packages provides a wrapper to various package hooks
 provided by other packages or classes, but does not define
@@ -9,10 +9,11 @@ hook provided by the kernel.
 
 
 
-% Copyright (C)
-%    2009-2011 Heiko Oberdiek
-%    2016-2023 Oberdiek Package Support Group
-%    https://github.com/ho-tex/hopatch/issues
+Copyright (C)
+   2009-2011 Heiko Oberdiek
+   2016-2023 Oberdiek Package Support Group
+   2026 LaTeX Project
+   https://github.com/LaTeX-Package-Repositories/hopatch
 
 
 ## License
