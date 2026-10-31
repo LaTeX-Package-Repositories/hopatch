@@ -163,6 +163,7 @@ and the derived files
 \usepackage{holtxdoc}[2011/11/22]
 \usepackage{caption}
 \usepackage{array}
+\NewDocumentCommand{\ghissue}{m}{\href{https://github.com/LaTeX-Package-Repositories/hopatch/issues/#1}{\texttt{gh/\##1}}}
 \setlength{\extrarowheight}{1pt}
 \renewcommand*{\arraystretch}{1.1}
 \begin{document}
@@ -738,11 +739,11 @@ and the derived files
 %   by the LaTeX kernel if the format is newer than 2020/10/01.
 %   \end{Version}
 %   \begin{Version}{2023-01-07 v1.5}
-%   \item Correct the name of the package hook (\href{https://github.com/LaTeX-Package-Repositories/hopatch/issues/2}{\texttt{gh/\#2}})
+%   \item Correct the name of the package hook (\ghissue{2})
 %   \end{Version}
 %   \begin{Version}{2026-10-27 v1.5a}
 %   \item Update maintainer to the \LaTeX{} Project
-%   \item Correct documentation (\href{https://github.com/LaTeX-Package-Repositories/hopatch/issues/3}{\texttt{gh/\#3}})
+%   \item Correct documentation (\ghissue{3})
 %   \end{Version}
 % \end{History}
 %
